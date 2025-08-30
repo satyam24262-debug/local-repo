@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="navbar">
+        <i class="fa-solid fa-location-dot"></i>
+    </div>
+    <div class="nav_two">
+        <div class="nav_box">   
+         <h1>Order/delivery Tracking</h1>
+        <p>Trace your order</p></div>
+    </div>
+    <div class="information"><p>Personal Informations</p></div>
+    <div class="detail">
+        <form>
+            <input class="txt" type="text" placeholder="Enter your Full name">
+            <br><br>
+            <label> Gender:</label><br>
+            <input type="radio" name="gender" value="male"> Male <br>
+            <input type="radio" name="gender" value="female">Female<br>
+            <input type="radio" name="gender" value="other">Other<br></br>
+            <input class="txt" type="text" name="Aadhar no" maxlength="12" minlength="12" pattern="[0-9]{12}" required placeholder="Enter Aadhar Number" > *Aadhar number<br>
+           <br> <input class="txt" type="tel" name="phone number"  placeholder="Mobile Number" maxlength="10" minlength="10" required pattern="[0-9]{10}" > *Mobile number
+           <br><br>
+           <input class="txt" type="text" placeholder="Enter your college name" > *Enter college name
+           <br><br>
+           <label for="qualification">Select Your qualification:</label><br>
+           <select name="qualification" id="qualification">
+            <option value="10th">10th</option>
+            <option value="12th">12th</option>
+            <option value="diploma">Diploma</option>
+            <option value="Graduation">Graduation</option>
+            <option value="POst Graduation">Post Graduation</option>
+            <option value="phd">PhD</option> 
+           </select>
+           <br><br>
+           <input class="fil" type="file" placeholder="No file chosen">
+           <br><br>
+           <label>
+            <input type="checkbox" required>
+           I am not a robot
+           </label>
+           <br><br>
+           <input class="sub" type="submit" placeholder="submit" value="submit">
+        </form>
+    </div>
+</body>
+</html>
+

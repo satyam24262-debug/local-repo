@@ -1,0 +1,95 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+    height: 100px;
+    background-color: rgba(117, 224, 172, 0.81);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    color:white;
+}
+.img{
+    height: 50px;
+    width: 50px;
+    background-image:url(travel.webp) ;
+    background-size:cover;
+}
+.nav1{
+    height: 70px;
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:60px;
+}
+.nav2 a{
+    /* margin-right: 20px; */
+    padding-right: 50px;
+    color: white;
+    text-decoration:none;
+}
+.nav2 a:hover{
+ color:rgb(255, 1, 1);
+}
+.hero_section{
+    height: 400px;
+    background-color: rgb(156, 213, 98);
+    background-image:url(nature.webp) ;
+    color:white;
+}
+.hero{
+    padding-left: 200px;
+    padding-top: 40px;
+}
+/* .hero_section h1{
+    color:red;
+    text-decoration: underline;
+} */
+.hero_section div{
+    height: 50px;
+    width: 100px;
+    background-color: rgba(52, 223, 13, 0.826);
+    position: relative;
+    margin-left: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.hero_section div a{
+    color: white;
+    text-decoration: none;
+}
+.hero_section div a:hover{
+    color: red;
+}
+.foot{
+    height: 300px;
+    background-color: rgb(62, 176, 237);
+    color: white;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    background-color:white;
+    background-size: cover;
+}
+.foot2{
+    display: flex;
+}
+.foot2 div{
+    margin-left: 10px;
+}
+.F{
+    padding-top: 20px;
+    padding-left: 400px;
+}
+.foot1 a{
+    color:white;
+    text-decoration: none;
+}
+.foot1 a:hover{
+    color: red;
+}
