@@ -1,0 +1,110 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.navbar{
+    height: 100px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color:white;
+    font-weight: 900;
+}
+.Img{
+    height: 90px;
+    width: 90px;
+    background-color: red;
+    background-image:url(Satyam.jpg);
+    background-size: cover;
+}
+.navbar a{
+    text-decoration: none;
+    color:white;
+}
+.navbar a:hover{
+color:red;
+}
+.picture{
+    height: 400px;
+    background-color:rgb(223, 184, 54);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.single{
+    height: 400;
+    color:rgb(255, 255, 255);
+}
+.same{
+    height: 100px;
+    margin-top:20px;
+}
+.same  ul h1{
+    color: black;
+    position: relative;
+bottom:10px;
+}
+.projectImage{
+  height: 300px;
+  width: 630px;
+  background-color: rgb(230, 187, 17);
+  background-image: url(savenature.jpeg);
+  background-size:cover;
+}
+.foot{
+    height: 400px;
+    background-color:rgb(243, 241, 239);
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.d1{
+    background-image: url(satyam.png);
+background-color: transparent;
+    background-size: cover;
+    height: 350px;
+    width: 350px;
+}
+.d1 h1{
+margin:310px 30px 0px 30px;
+color: rgb(239, 150, 34);
+}
+.d1 h1:hover{
+    background-color: red;
+    color: white;
+}
+.l{
+    margin: 30px;
+}
+.d2 div{
+    height: 45px;
+    width: 200px;
+    background-color:rgb(98, 255, 0);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+}
+.d2 div a{
+    text-decoration: none;
+    color:white;
+}
+.d2 div a:hover{
+color: red;
+}
+.additional{
+    height: 30px;
+    background-color: rgb(197, 170, 132);
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.additional a{
+    color: rgb(12, 9, 8);
+    text-decoration: none;
+}
+.additional a:hover{
+    color: red;
+}
