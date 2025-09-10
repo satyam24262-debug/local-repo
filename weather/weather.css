@@ -1,0 +1,108 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+    border:none;
+    outline:none;
+}
+body{
+    height: 100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:black;
+}
+.container{
+    height: min-content;
+    width: min-content;
+    background-color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    border-radius:1rem;
+    padding:20px;
+}
+.search-bar{
+    height: min-content;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 3rem;
+}
+.search-bar input{
+height: 50px;
+border-radius: 1rem;
+font-size: 30px;
+padding-left:10px;
+text-transform: capitalize;
+margin-right: 20px;
+    background-color:rgb(225, 236, 232);
+}
+.search-bar input::placeholder{
+    color:black;
+}
+.search-bar button{
+    background-color:rgb(212, 229, 224);
+    height: 50px;
+    width:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:50%;
+    font-size:30px;
+}
+.search-bar button:hover{
+    background-color:bisque;
+    color:orange;
+}
+.weather-body{
+    height: min-content;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-block:20px;
+}
+.temp{
+    margin-top:40px;
+    font-size:25px;
+    text-transform:capitalize;
+    font-weight:600;
+}
+.temp p{
+    font-size:40px;
+    font-weight:800;
+}
+.temp sup{
+    font-size:20px;
+    font-weight:600;
+}
+.weather{
+    height: min-content;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    font-size: 25px;
+}
+.img{
+    height:250px;
+    width:300px;
+    background-image:url(3.jpg);
+    background-size:cover;
+}
+.humidity,.wind-speed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h , .w{
+    font-weight:600;
+}
+.humidity i,.wind-speed i{
+    font-size:50px;
+}

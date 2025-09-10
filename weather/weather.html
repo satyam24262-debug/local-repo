@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wheather-information</title>
+    <link rel="stylesheet" href="weather.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+      <div class="container">
+          <div class="search-bar">
+            <input id="input" type="text" placeholder="type your location">
+            <button id="button" class="fa-solid fa-magnifying-glass"></button>
+          </div>
+        <div class="weather-body">
+          <div class="img"></div>
+          <div class="temp">
+            <p id="temperature">28<sup>°C</sup></p>
+            <span id="weather-box">raining clouds</span>
+          </div>
+          <div class="weather">
+            <div class="humidity">
+            <i class="fa-solid fa-droplet"></i>
+            <div class="h">
+             <p id="humidity">50%</p>
+            <span>Humidity</span>
+            </div>
+          </div>
+          <div class="wind-speed">
+            <i class="fa-solid fa-wind"></i>
+          <div class="w">
+            <p class="windspeed">4.64Km/H</p>
+            <span>wind speed</span></div>
+          </div>
+          </div>
+        </div>
+      </div>
+    <script src="weather.js"></script>
+</body>
+</html>
